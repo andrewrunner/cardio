@@ -1,0 +1,1700 @@
+/* Смартфоны (Портрет и ландшафтный) */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px)
+{
+    html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .calculator-valut {
+        float: left;
+        width: auto;
+        margin: 10px 0 0 0;
+    }
+
+    body {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: contents;
+    }
+
+    .hed_menu {
+        height: auto;
+        margin: 0;
+        padding: 5px 5px 10px 5px;
+        display: block;
+        overflow: inherit;
+    }
+
+    .pad {
+        width: 305px !important;
+        margin: 10px auto !important;
+        overflow: initial;
+    }
+
+    .content {
+        width: 100%;
+        align-content: center;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .pad a {
+        float: none !important;
+    }
+
+    .group {
+        text-decoration: none;
+    }
+
+    .content a {
+        display: inline-table;
+        margin: 5px auto;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .a {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .logon img {
+        width: 200px;
+        margin: 5px auto 10px;
+        float: none;
+        position: inherit;
+    }
+
+    a {
+        font-size: 14px;
+        text-decoration: none;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .menu_reg {
+        font-size: 18px;
+        float: left;
+        margin: 15px 9px 0 0;
+    }
+
+    .logon {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        height: 390px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .logon a {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .logon a img {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 80px;
+        overflow: hidden;
+        width: 100%;
+        position: inherit;
+    }
+
+    .text_logo {
+        width: 94%;
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .tl_1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .group {
+        width: 297px;
+        text-decoration: none;
+        margin: 10px auto;
+        height: 400px;
+    }
+
+    .scrin_block {
+        position: relative;
+        width: 100%;
+        padding: 0;overflow: initial;
+        text-align: center;
+    }
+
+    .text_menu_ {
+        font-size: 25px;
+        color: #eee;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        box-sizing: content-box;
+    }
+
+    .imag {
+        width: 280px;
+        height: 250px;
+    }
+
+    .imag img {
+        width: 297px;
+    }
+
+    .crov100legeng {
+        font-size: 15px;
+        margin: 0 0 0 10px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .block_f2 {
+        width: 100% !important;
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .block_f2 .jk, .content .jk {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .wf_text {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+
+    .block_strock {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .fm_3 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cart3 {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .no_visibiliti {
+        visibility: collapse;
+        width: 0;
+        height: 0;
+    }
+
+    .imges {
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .tov_block {
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .tov_block2 {
+        width: 63px;
+        text-align: left;
+        float: left;
+    }
+
+    .pages_off {
+        width: 30px !important;
+        margin: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .pages_on {
+        width: 30px !important;
+        margin: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .pages {
+         width: 100%;
+         box-sizing: border-box;
+    }
+
+    .limit {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .block_strock_2 {
+        font-weight: 800;
+    }
+
+    .block_sp2 {
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    .block_left,
+    .block_right,
+    .block_string,
+    .block_coment {
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        box-sizing: border-box;
+    }
+    
+    .vopros {
+        padding: 5px;
+    }
+
+    .block_sp,
+    .crov100 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nameblock,
+    .fiel {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .image1,
+    .block_sf {
+        width: 100%;
+    }
+
+    fieldset .crov100 {
+        width: 320px;
+    }
+
+    .text_menu2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .content>form>fieldset>.nameblock>.block_string>.block_sp2 {
+        width: 50px !important;
+        float: left !important;
+    }
+
+    .content>form>fieldset>.nameblock>.block_string>.text_menu2 {
+        width: 240px;
+        box-sizing: border-box;
+    }
+
+    .block_string2 {
+        padding: 0;
+    }
+
+    .crov100legeng {
+        box-sizing: border-box;
+    }
+
+    fieldset {
+        padding: 5px;
+    }
+
+    legend {
+        font-size: 15px;
+    }
+
+    .block_coment {
+        padding: 5px;
+        margin: 0 0 10px 0;
+    }
+
+    .bottom_,
+    .rmt,
+    .block_string,
+    .content div form div,
+    .content div form div select,
+    .block_strock_2,
+    .radio-inline,
+    .vopros,
+    .block_pers,
+    .block_strock {
+        width: 100% !important;
+        margin: 0 0 10px 0 !important;
+        box-sizing: border-box;
+    }
+
+    .etr a {
+        font-size: 20px;
+    }
+
+    .kaly,
+    .primeth {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .pers {
+        width: 100%;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .tblet_chet div {
+        font-size: 8px !important;
+    }
+
+    .otvet {
+        font-size: 16px;
+        width: 25%;
+    }
+
+    .otvet span {
+        font-size: 12px !important;
+    }
+
+    .radio-inline {
+        padding: 5px;
+    }
+
+    .rm2, .product {
+        float: none;
+        margin: 10px auto !important;
+    }
+
+    .tblet_chet1,
+    .tblet_chet1 div {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .chet_pp1 {
+        font-weight: 800;
+    }
+
+    .form_table2,
+    .part {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+}
+
+/* iPads (Портрет и Ландшафтный) */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px)
+{
+    html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: inline-table;
+        box-sizing: border-box;
+    }
+
+    .calculator-valut {
+        float: left;
+        width: auto;
+        margin: 10px 0 0 0;
+    }
+
+    body,
+    .hed_menu,
+    .logon,
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .content {
+        padding: 0 10px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .crov100 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .scrin_block {
+        width: 100%;
+
+    }
+
+    .hed_menu {
+        height: auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .scrin_block {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        float: left;
+        font-size: 12px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .pad {
+        width: 377px !important;
+        margin: 10px auto;
+        box-sizing: border-box;
+    }
+
+    .text_menu_ {
+        font-size: 20px !important;
+        color: #eee;
+        margin-right: 10px;
+    }
+
+    .a {
+        font-size: 14px;
+    }
+
+    .logon img {
+    width: 100% !important;
+    float: unset;
+    margin: 0 auto !important;
+    padding: 5px 100px;
+    position: inherit;
+    box-sizing: border-box;
+    }
+
+    .logon {
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .tl_1 {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+    .text_logo {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+
+    .imag {
+        text-decoration: none;
+        padding: 0 !important;
+    }
+
+    .content .pad a {
+        float: none;
+        text-decoration: none;
+        margin: 10px auto;
+    }
+
+    .group {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .menu_reg {
+        float: left;
+        font-size: 100%;
+    }
+
+    html {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pad a {
+        float: none !important;
+    }
+
+    .content a {
+        width: 100%;
+        margin: 5px auto;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .block_f2 {
+        width: 100% !important;
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .block_f2 .jk, .content .jk {
+        margin: 5px 0;
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .tblet_chet1 div {
+        font-size: 15px;
+    }
+
+    .wf_text {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+
+    .block_strock {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .fm_3 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .block_left {
+        padding: 0;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cart3 {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .no_visibiliti {
+        visibility: collapse;
+        width: 0;
+        height: 0;
+    }
+
+    .imges {
+        width: 30%;
+        box-sizing: border-box;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .tov_block {
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .tov_block2 {
+        width: 63px !important;
+        text-align: left;
+        float: left;
+    }
+
+    .pages_off {
+        width: 30px !important;
+        display: inline-table;
+        margin: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .pages_on {
+        width: 30px !important;
+        margin: 2px !important;
+        display: inline-table;
+        box-sizing: border-box;
+    }
+
+    .pages {
+         width: 100%;
+         padding: 0 30px;
+         margin-bottom: 20px;
+         box-sizing: border-box;
+    }
+
+    .content .content,
+    .content div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .image1,
+    .block_sp {
+        width: 100%;
+    }
+
+    .content>form>.block_string {
+        padding: 0 !important;
+        font-size: 23px;
+    }
+
+    .img_product {
+        width: 448px;
+        height: 448px;
+    }
+
+    form>.vubor>input {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .primeth {
+        padding: 5px !important;
+    }
+
+    .limit {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .block_strock_2 {
+        font-weight: 800;
+    }
+
+    .block_sp2 {
+        width: 20px !important;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    fieldset>.nameblock {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .block_string2 {
+        padding: 0 !important;
+    }
+
+    .fiel {
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .text_menu2 {
+        width: 385px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .block_left,
+    .block_right,
+    .block_string,
+    .block_coment {
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        box-sizing: border-box;
+    }
+    
+    .vopros {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .block_coment {
+        padding: 5px;
+        margin: 0 0 10px 0;
+    }
+
+    .bottom_,
+    .rmt,
+    .block_string,
+    .content div form div,
+    .content div form div select,
+    .block_strock_2,
+    .radio-inline,
+    .vopros,
+    .block_pers,
+    .block_strock {
+        width: 100% !important;
+        margin: 15px 0 10px 0 !important;
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+
+    .block_string form .block_f2,
+    .block_string form .block_f2 .vopros,
+    .block_string form .block_string {
+        padding: 0 !important;
+        text-align: left;
+        font-size: 23px;
+    }
+
+    .cart3 {
+        padding: 0 !important;
+    }
+
+    .comentari2,
+    .comentari2 {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .image1 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .form_table2 {
+        width: 100%;
+        padding: 1 30px;
+        box-sizing: border-box;
+    }
+
+    .content .form_table2 .part,
+    .content .form_table2 div {
+        padding: 0;
+    }
+
+    .part,
+    .block_sf {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .block_sf>label {
+        margin-right: 47px !important;
+    }
+
+    .kaly,
+    .primeth {
+        width: 100%;
+        padding: 10px 10px !important;
+        font-size: 16px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .pers {
+        width: 100%;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .tblet_chet div {
+        font-size: 8px !important;
+    }
+
+    .otvet {
+        font-size: 25px;
+        width: 25% !important;
+        text-align: left;
+    }
+
+    .otvet span {
+        font-size: 15px !important;
+    }
+
+    .otvet span {
+        font-size: 15px !important;
+    }
+
+    .h3text {
+        text-align: center;
+    }
+
+    .date_table {
+        width: 128px;
+        padding: 5px 0 !important;
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+   
+    .table_block2,
+    .table_block {
+        padding: 0 !important;
+    }
+
+    .table_block2 div {
+        padding: 0;
+    }
+
+    .recept_ogl2 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .radio-inline {
+        padding: 5px;
+    }
+
+    .rm2, .product {
+        float: none;
+        margin: 10px auto !important;
+    }
+
+    .chet1 {
+        border: none;
+    }
+
+    .block_f2 div {
+        padding: 0;
+    }
+
+    .type_sostoyaniya {
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .tblet_chet1,
+    .tblet_chet1 div {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .chet_pp1 {
+        font-weight: 800;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    body,
+    .hed_menu,
+    .logon,
+    .content {
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+        float: none;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .calculator-valut {
+        float: left;
+        width: auto;
+        margin: 10px 0 0 0;
+    }
+
+
+    .content {
+        padding: 0 20px;
+    }
+
+    .scrin_block {
+        width: 100%;
+
+    }
+
+    .hed_menu {
+        height: auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .scrin_block {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        float: left;
+        font-size: 12px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .text_menu_ {
+        font-size: 20px !important;
+        color: #eee;
+        margin-right: 10px;
+    }
+
+    .a {
+        font-size: 14px;
+    }
+
+    .logon img {
+    width: 100% !important;
+    float: unset;
+    margin: 10px auto !important;
+    padding: 5px 40%;
+    position: inherit;
+    box-sizing: border-box;
+    }
+
+    .limit {
+        padding: 5px !important;
+        box-sizing: border-box;
+    }
+
+    .logon {
+        height: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .tl_1 {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .text_logo {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+
+    .imag {
+        text-decoration: none;
+        padding: 0 !important;
+        background: none;
+    }
+
+    .content .pad a {
+        float: none;
+        text-decoration: none;
+        margin: 10px auto;
+    }
+
+    .group {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .menu_reg {
+        float: left;
+        font-size: 100%;
+    }
+
+    html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pad a {
+        float: none !important;
+    }
+
+    .content a {
+        margin: 5px auto;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .block_f2 {
+        width: 100% !important;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+
+    .block_f2 .jk,
+     .content .jk {
+        margin: 5px 0 0 10px;
+    }
+
+    .fm_3 {
+        padding: 0 20px !important;
+    }
+
+    .coment {
+        font-size: 20px !important;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    .wf_text {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+
+    .block_strock {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .fm_3 {
+        width: 100%;
+        margin: 0 0 0 -30px;
+        padding: 0;
+    }
+
+    .content .pad form .block_left,
+    .content .pad form .block_right,
+    .content .pad form .block_right .block_string,
+    .content .pad form .block_left .block_string {
+        padding: 0 !important;
+    }
+
+    .block_strock_2 {
+        background: none;
+    }
+
+    .etr .rmt {
+        padding: 5px;
+        font-size: 35px;
+    }
+
+    .content .etr {
+        padding: 25px 0 !important;
+    }
+
+    .radio-inline {
+        margin: 0;
+        box-sizing: border-box;
+        display: inline;
+    }
+
+    .block_sf {
+        width: 100%;
+    }
+
+    .left_ {
+        width: auto;
+    }
+
+    .pad {
+        padding: 0 20px;
+    }
+
+    .block_string {
+        padding: 20px !important;
+    }
+
+    .block_string .block_string {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imges {
+        width: 9%;
+        box-sizing: border-box;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .pages_off {
+        width: 30px !important;
+        display: inline-table;
+        margin: 2px !important;
+        box-sizing: border-box;
+    }
+
+    .pages_on {
+        width: 30px !important;
+        margin: 2px !important;
+        display: inline-table;
+        box-sizing: border-box;
+    }
+
+    .pages {
+         width: 100%;
+         padding: 0 30px;
+         margin-bottom: 20px;
+         box-sizing: border-box;
+    }
+
+    .primeth {
+        padding: 5px !important;
+    }
+
+    .limit,
+    .nameblock {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .block_strock_2 {
+        font-weight: 800;
+    }
+
+    .block_sp2 {
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    .text_menu2 {
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    .block_left,
+    .block_right,
+    .block_string,
+    .block_coment {
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        box-sizing: border-box;
+    }
+    
+    .vopros {
+        padding: 5px 0 !important;
+        width: 100%;
+        float: left;
+    }
+
+    .crov100,
+    .block_string {
+        width: 100%;
+        padding: 5px 20px !important;
+        box-sizing: border-box;
+    }
+
+    .block_string form .block_string {
+        padding: 0;
+    }
+
+    .wf_blanck2 {
+        margin-left: 5px;
+    }
+
+    .content form {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .block_f2 label {
+        width: 100% !important;
+    }
+
+    .content,
+    label,
+    label label {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .block_coment {
+        padding: 5px;
+        margin: 0 0 10px 0;
+    }
+
+    .bottom_,
+    .rmt,
+    .block_string,
+    .content div form div,
+    .content div form div select,
+    .block_strock_2,
+    .radio-inline,
+    .vopros,
+    .block_pers,
+    .block_strock {
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+
+    .block_f2 .vopros {
+        padding: 0 !important;
+    }
+
+    .content b {
+        box-sizing: border-box;
+    }
+
+    .image1 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .form_table2 {
+        width: 100%;
+        padding: 1 30px;
+        box-sizing: border-box;
+    }
+
+    .content .form_table2 .part,
+    .content .form_table2 div {
+        padding: 0;
+    }
+
+    .part {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .primeth {
+        font-size: 11px;
+        padding: 2px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cal_bord {
+        padding: 0 20px;
+    }
+
+    .kaly {
+        width: 130px;
+        height: 135px;
+        box-sizing: border-box;
+    }
+
+    .pers {
+        width: 100%;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .tblet_chet div {
+        font-size: 12px !important;
+    }
+
+    .chet_data,
+    .chet_data1 {
+        width: 239px;
+    }
+
+    .chet_bes,
+    .chet_bes1 {
+        width: 113px;
+    }
+
+    .otvet {
+        font-size: 25px;
+        width: 25%;
+    }
+
+    .otvet span {
+        font-size: 15px !important;
+    }
+
+    .otvet span {
+        font-size: 15px !important;
+    }
+
+    .h3text {
+        text-align: center;
+    }
+
+    .date_table {
+        width: 128px;
+        padding: 5px 0 !important;
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+   
+    .table_block2,
+    .table_block {
+        padding: 0 !important;
+    }
+
+    .table_block2 div {
+        padding: 0;
+    }
+
+    .recept_ogl2 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .radio-inline {
+        padding: 5px;
+    }
+
+    .rm2,
+    .product {
+        margin: 10px auto !important;
+    }
+
+    .product {
+        margin: 10px 5px !important;
+    }
+
+    .pad {
+        width: 642px !important;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .chet1 {
+        border: none;
+    }
+
+    .block_f2 div {
+        padding: 0;
+    }
+
+    .type_sostoyaniya {
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .tblet_chet1,
+    .tblet_chet1 div {
+        box-sizing: border-box;
+    }
+
+    .chet_pp1 {
+        font-weight: 800;
+    }
+
+    .content .product form,
+    .content .product form .comentari2,
+    .content .product form .comentari {
+        padding: 0 !important;
+        font-size: 16px;
+    }
+
+    .chet_bes,
+    .chet_limit1_,
+    .chet_limit,
+    .chet_dolg,
+    .chet_oplata,
+    .chet_operation,
+    .chet_data2_,
+    .chet_data1_,
+    .chet_data,
+    .chet_pp {
+        border-right: 1px solid #666;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .chet_bes1,
+    .chet_limit11_,
+    .chet_limit1,
+    .chet_ostatoc1,
+    .chet_dolg1,
+    .chet_oplata1,
+    .chet_operation1,
+    .chet_data12_,
+    .chet_data11_,
+    .chet_data1,
+    .chet_pp1 {
+        border-right: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+
+    .chet_pp,
+    .chet_pp1 {
+        width: 22px;
+        box-sizing: border-box;
+    }
+
+    #print-content1,
+    #print-content2,
+    #print-content3,
+    #print-content4,
+    #print-content5,
+    #print-content6,
+    #print-content7,
+    #print-content8,
+    #print-content9,
+    #print-content10,
+    #print-content11,
+    #print-content12,
+    #print-content13,
+    #print-content14,
+    #print-content15,
+    #print-content16,
+    #print-content17,
+    #print-content18,
+    #print-content19
+     {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    body,
+    html {
+        box-sizing: border-box;
+    }
+
+    .calculator-valut {
+        float: left;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .hed_menu,
+    .logon {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+
+    .content {
+        width: 966px;
+        padding: 0 0 20px0;
+        box-sizing: border-box;
+    }
+
+    .menu_reg {
+        font-size: 17px;
+    }
+
+    .tl_1 {
+        font-size: 28px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logon img {
+        float: left;
+        position:  inherit;
+        margin: 5px;
+    }
+
+    .text_logo {
+        padding: 0;
+        margin-top: 20px; 
+        float: left;
+    }
+
+    .block_f2 {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .limit {
+        width: 100%;
+    }
+
+    .fm_3 {
+        width: 48%;
+        float: left;
+    }
+
+    .form_table2 {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .group {
+        width: 300px;
+    }
+
+    .mr {
+        margin: 0 30px 0 0;
+    }
+
+    .imag {
+        width: 300px;
+        background: none;
+    }
+
+    .rm2 {
+        margin: 0;
+    }
+
+    .product {
+        margin: 10px 15px;
+    }
+
+    .pad {
+        position: relative;
+        margin:  0 auto;
+        overflow: hidden;
+    }
+
+    .kaly {
+        width: 12%;
+        height: 140px;
+    }
+
+    .primeth {
+        width: 100%;
+    }
+
+    .coment {
+        font-size: 14px;
+    }
+
+    .block_strock_2 {
+        width: 190px;
+        box-sizing: border-box;
+    }
+
+    .block_left,
+    .block_right {
+        width: 48%;
+    }
+
+    .tov_block {
+        width: 513px;
+    }
+    
+    .chet1 {
+        border: none;
+    }
+
+    .block_f2 div {
+        padding: 0;
+    }
+
+    .type_sostoyaniya {
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .tblet_chet,
+    .tblet_chet {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .chet_data,
+    .chet_data1 {
+        width: 195px;
+    }
+
+    .tblet_chet1,
+    .tblet_chet1 div {
+        box-sizing: border-box;
+    }
+
+    .chet_pp1 {
+        font-weight: 800;
+    }
+
+    .content .product form,
+    .content .product form .comentari2,
+    .content .product form .comentari {
+        padding: 0 !important;
+        font-size: 16px;
+    }
+
+    .chet_bes,
+    .chet_limit1_,
+    .chet_limit,
+    .chet_dolg,
+    .chet_oplata,
+    .chet_operation,
+    .chet_data2_,
+    .chet_data1_,
+    .chet_data,
+    .chet_pp {
+        border-right: 1px solid #666;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .chet_bes1,
+    .chet_limit11_,
+    .chet_limit1,
+    .chet_ostatoc1,
+    .chet_dolg1,
+    .chet_oplata1,
+    .chet_operation1,
+    .chet_data12_,
+    .chet_data11_,
+    .chet_data1,
+    .chet_pp1,
+    .chet_ostatoc12 {
+        border-right: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+
+    .chet_ostatoc {
+        width: 40px;
+    }
+
+    .chet_pp,
+    .chet_pp1 {
+        width: 35px;
+        box-sizing: border-box;
+    }
+
+    .chet_bes,
+    .chet_bes1 {
+        width: 120px;
+    }
+
+    #print-content1,
+    #print-content2,
+    #print-content3,
+    #print-content4,
+    #print-content5,
+    #print-content6,
+    #print-content7,
+    #print-content8,
+    #print-content9,
+    #print-content10,
+    #print-content11,
+    #print-content12,
+    #print-content13,
+    #print-content14,
+    #print-content15,
+    #print-content16,
+    #print-content17,
+    #print-content18,
+    #print-content19
+     {
+        padding: 0 20px;
+    }
+
+    .vopros {
+        width: 558px;
+    }
+}
