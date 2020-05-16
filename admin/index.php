@@ -4,6 +4,7 @@
 session_start();
 
 // require_once('component/errors.php'); // Для определеня ошибки
+$superuser = false;
 
 if ($_GET['name'] == 'resset') {
 	session_destroy();
