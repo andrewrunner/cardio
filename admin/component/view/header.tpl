@@ -8,9 +8,6 @@
 	<title>cardio admin</title>
 	<link rel="stylesheet" id="google_fonts-css"
 		href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" type="text/css" media="all">
-	<link rel="stylesheet" id="font_awesome-css"
-		href="http://iridoc.ru/wp-content/themes/national-basic/library/css/font-awesome.css?ver=4.1.0" type="text/css"
-		media="all">
 	<script src="js/function.js"></script>
 	<link href="css/style.css" rel="stylesheet">
 </head>
