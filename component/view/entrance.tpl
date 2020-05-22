@@ -13,18 +13,25 @@
 				autocomplete="new-password" required>
 		</div>
 		<div class="block_f2">
-			<a href="https://iridoc.ru/preduprezhdenie-o-personalnyx-dannyx/" target="_blank"
-				style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с предупреждением о персональных
-					данных</b></a><br>
+			<a href="https://iridoc.com/files/Privacy_policy.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с Политикой конфиденциальности</b></a><br>
+			
 			<label class="wf_text" for="firstname"><span style="color: red;">*</span>Я согласен на обработку моих
 				данных:</label>
 			<input type="checkbox" value="" placeholder="Пароль" id="firstname" class="block_strock" required>
 		</div>
 		<div class="block_f2">
-			<a href="https://iridoc.ru/publichnaya-oferta/" target="_blank"
-				style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с договором оферты</b></a><br>
-			<label class="wf_text" for="firstname"><span style="color: red;">*</span>Я согласен с договором
-				оферты:</label>
+			<a href="https://iridoc.com/files/Charter_Associations_Language_Hearts_Russian.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Устав;</b></a><br>
+			
+			<a href="https://iridoc.com/files/Position_of_Activities_Associations_Language_Heart.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Положение;</b></a><br>
+			
+			<a href="https://iridoc.com/files/Terms_of_use.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Пользовательское соглашение</b></a><br>
+			
+			
+			<label class="wf_text" for="firstname"><span style="color: red;">*</span>Я согласен с  Уставом, Положением, Пользовательским соглашением:</label>
 			<input type="checkbox" value="" placeholder="Пароль" id="firstname" class="block_strock" required>
 		</div>
 		<div class="block_f2">

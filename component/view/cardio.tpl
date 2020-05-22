@@ -51,7 +51,7 @@
 			<input class="block_strock" type="file" name="filename" multiple="multiple" value="'.$filename.'" required><br>
 		</div>
 		<div class="block_f2">
-			<a href="http://iridoc.ru/preduprezhdenie-o-personalnyx-dannyx/" target="_blank" style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с предупреждением о персональных данных</b></a><br>
+			<a href="https://iridoc.com/files/Terms_of_use.pdf" target="_blank" style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с предупреждением о персональных данных</b></a><br>
 			<label class="td"><span style="color: red;" for="check">*</span>Я согласен на обработку моих данных:</label>
 			<input name="check" type="checkbox" style="float: left; margin: 4px 8px 0 0;" required>
 		</div>
