@@ -2142,10 +2142,19 @@ function SaveClient($new_session)
 	} else {
 		$date = date('d.m.Y H:i');
 	}
-
+/*
 	$mysqli->query("INSERT INTO " . CLIENTU . " (`lastname`, `firstname`, `middlename`, `rojdenie`, `email`, `state`, `complaint`, `comentari`, `position`, `treatment`, `status`, `data_registr`, `file`, `personal_num`, `group`, `fio_card`, `summ`, `dop_card`, `strana`)
 	VALUES ('$lastname', '$firstname', '$middlename', '$rojdenie', '$email', '$state', '$complaint', '$comentari', '$position', '$treatment[0]', '$status', '$date', '$filename', '$personal_num', '$group', '$fio_card', '$summa', '$checks2', '$strana')");
+*/
 
+	if ($personal_num == 'У Вас нет персонального номера') {
+		$personal_num = 0;
+   	}
+
+	mysqli_query($mysqli, "INSERT INTO " . CLIENTU . " (lastname, firstname, middlename, rojdenie, email, state, complaint, comentari, position, treatment, status, data_registr, file, personal_num, group, fio_card, summ, dop_card, strana)
+	VALUES ('$lastname', '$firstname', '$middlename', '$rojdenie', '$email', '$state', '$complaint', '$comentari', '$position', '$treatment[0]', '$status', '$date', '$filename', '$personal_num', '$group', '$fio_card', '$summa', '$checks2', '$strana')") 
+	or die ('Ошибка <b>' . CLIENTU . '</b> ' . mysqli_error($mysqli));
+	
 	return true;
 }
 
