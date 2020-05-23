@@ -65,9 +65,15 @@
 		<div class="block_f2">
 
 			<a href="https://iridoc.com/files/Charter_Associations_Language_Hearts_Russian.pdf" target="_blank"
-				style="margin: 5px 0 0 0; font-size: 15px;"><b>Ознакомиться с уставом «Ассоциации Язык Сердца»</b></a><br>
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Устав;</b></a><br>
 			
-			<label class="wf_text" for="firstname"><span style="color: red;">*</span>Принимаю условия устава Ассоциации Язык Сердца:</label>
+			<a href="https://iridoc.com/files/Position_of_Activities_Associations_Language_Heart.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Положение;</b></a><br>
+			
+			<a href="https://iridoc.com/files/Terms_of_use.pdf" target="_blank"
+				style="margin: 5px 0 0 0; font-size: 15px;"><b>Пользовательское соглашение</b></a><br>
+			
+			<label class="wf_text" for="firstname"><span style="color: red;">*</span>Я согласен с  Уставом, Положением, Пользовательским соглашением:</label>
 			<input type="checkbox" value="" placeholder="Пароль" id="firstname" class="block_strock"
 				required>
 		</div>
